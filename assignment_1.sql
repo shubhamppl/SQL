@@ -8,3 +8,5 @@
 select  Gender,Occupation, count(*) as new from [ContosoRetailDW].[dbo].[DimCustomer]
 where gender ='m'
 group  by Occupation,Gender
+
+/*rest do it on own*/
